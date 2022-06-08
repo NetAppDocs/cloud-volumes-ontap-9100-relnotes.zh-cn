@@ -447,7 +447,6 @@
   <block id="0b9dfa1d6e582593bcd75a94bfaa5add" category="list-text">E48s_v3 ^1^</block>
   <block id="195512f323b29b79f5b71cceb3a49a7d" category="list-text">E80ids_v4 ^2^</block>
   <block id="8dbeeeefc901c0dbb39a9c1332aaeeb9" category="cell">高级页面 Blobs</block>
-  <block id="937cb82fad9af153ff18d3ee14caebd5" category="list-text">使用 HA 对时， Cloud Volumes ONTAP 支持对这些 VM 类型使用较高的写入速度。使用单节点系统时，所有实例类型均支持高写入速度。<block ref="18805b87db41583a67ecc2414d022f2b" category="inline-link-rx"></block>。</block>
   <block id="4efc25f6cc7013d95ca2f5ab1dcc3366" category="list-text">只有在需要 Azure 维护控制时，才建议使用此虚拟机。由于定价较高，因此不建议用于任何其他使用情形。</block>
   <block id="d642bc6852e213242f2c21d17b6d3e43" category="list-text">Azure 中的 HA 对不支持 PAYGO Explore 。</block>
   <block id="88d444d836b2ea3ca342f4cc3a6b2b50" category="paragraph">在 Azure 中，一个聚合最多可以包含 12 个类型和大小相同的磁盘。</block>
@@ -672,7 +671,6 @@
   <block id="398d7dd4fa02e30dc6322ad98eff7d2b" category="paragraph">您可以在中找到 ONTAP 软件的已知问题<block ref="13c0668cefb5d13050e1de01793dacbb" category="inline-link-rx"></block>。</block>
   <block id="ba717b9f3a72fa866a989c5d759e0697" category="summary">本发行说明介绍了 Cloud Volumes ONTAP 9.10.0 的新增功能，限制和已知问题。</block>
   <block id="1371c56c5592e6bfd01bdfa309fa1041" category="doc">《 Cloud Volumes ONTAP 9.10.0 发行说明》</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有 Cloud Manager 文档</block>
   <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">发行说明主页</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="sidebar">AWS</block>
@@ -719,4 +717,7 @@
   <block id="fed5c8246ca485a22abc959eb3025a8c" category="admonition">免费试用开始、剩余7天以及剩余1天时、您将在Cloud Manager中收到通知。例如：<block ref="4c1747a7ecb096dffecedae45404dae8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="451e7fc5df78c19113abdb3f6a0dc54e" category="paragraph">了解如何开始使用基于容量的许可：</block>
   <block id="fdb736034a6801c8a5010a511211a4a7" category="paragraph">了解如何开始使用Keystone Flex订阅：</block>
+  <block id="0d8238cb20fb41ede1eb68d45d598c4f" category="list-text">使用单节点系统时，所有实例类型均支持高写入速度。您可以在部署期间或之后的任何时间从Cloud Manager启用高写入速度。<block ref="18805b87db41583a67ecc2414d022f2b" category="inline-link-rx"></block>。</block>
+  <block id="4e1b6146fa2cb1efc8bff10f1cf7e93c" category="list-text">E80ids_v4 ^1、2^</block>
+  <block id="7ddea5d9f1e01b01ba11b40da7046d95" category="list-text">使用 HA 对时， Cloud Volumes ONTAP 支持对这些 VM 类型使用较高的写入速度。您可以在部署期间或之后的任何时间从Cloud Manager启用高写入速度。<block ref="18805b87db41583a67ecc2414d022f2b" category="inline-link-rx"></block>。</block>
 </blocks>
